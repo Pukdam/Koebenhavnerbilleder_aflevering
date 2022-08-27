@@ -13,9 +13,11 @@ module.exports = {
       Decogreen: "#D4E581",
     },
     extend: {
-      fontFamily: "'Biryani', system-ui, sans-serif",
-      fontFamily: "'Noto Sans JP', system-ui, sans-serif",
-      fontFamily: "'Rubik Dirt', system-ui, cursive",
+      fontFamily: {
+        biryani: "'Biryani', system-ui, sans-serif",
+        notosans: "'Noto Sans JP', system-ui, sans-serif",
+        rubikdirt: "'Rubik Dirt', system-ui, cursive",
+      },
     },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
