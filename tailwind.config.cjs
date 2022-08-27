@@ -8,7 +8,7 @@ module.exports = {
       H3dblue: "#161354",
       Pblack: "#000000",
       Pgray: "#494949",
-      BackgroundOW: "#F3EEEE",
+      BackgroundOW: "#ECECE0",
       Pwhite: "#FFFFFF",
       Decogreen: "#D4E581",
     },
